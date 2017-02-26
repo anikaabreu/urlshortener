@@ -1,0 +1,4 @@
+<%= form_for @url, remote: true , :url =>'/show' do |f| %>
+ URL: <%= f.text_field :url %><br />
+  <%= f.submit %>
+<% end %>
